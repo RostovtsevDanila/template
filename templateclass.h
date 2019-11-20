@@ -1,11 +1,11 @@
 #ifndef TEMPLATECLASS_H
 #define TEMPLATECLASS_H
+#include <QObject>
 
-
-class TemplateClass
+class TemplateClass : public QObject
 {
 public:
-	TemplateClass();
+    TemplateClass(QObject *parent = nullptr);
 };
 
 #endif // TEMPLATECLASS_H

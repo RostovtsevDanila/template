@@ -1,6 +1,6 @@
 #include "templateclass.h"
 
-TemplateClass::TemplateClass()
+TemplateClass::TemplateClass(QObject *parent):QObject (parent)
 {
 
 }
