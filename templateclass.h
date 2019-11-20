@@ -4,6 +4,7 @@
 
 class TemplateClass : public QObject
 {
+    Q_OBJECT
 public:
     TemplateClass(QObject *parent = nullptr);
 

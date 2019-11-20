@@ -1,7 +1,7 @@
 #include "templateclass.h"
 #include <QDebug>
 
-TemplateClass::TemplateClass(QObject *parent):QObject (parent)
+TemplateClass::TemplateClass(QObject *parent) : QObject(parent)
 {
 
 }
