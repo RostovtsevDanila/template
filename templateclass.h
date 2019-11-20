@@ -4,11 +4,11 @@
 
 class TemplateClass : public QObject
 {
-    Q_OBJECT
+    Q_OBJECT //this macros is need!!!
 public:
     TemplateClass(QObject *parent = nullptr);
 
-    void printWord(const QString &word);
+    Q_INVOKABLE void printWord(const QString &word); // Q_INVOKABLE allows to use this method in qml
 };
 
 #endif // TEMPLATECLASS_H
