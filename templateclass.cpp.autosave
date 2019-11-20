@@ -1,0 +1,11 @@
+#include "templateclass.h"
+
+TemplateClass::TemplateClass()
+{
+	
+}
+
+void TemplateClass::printString(QString str)
+{
+	qDebug() << str;
+}
